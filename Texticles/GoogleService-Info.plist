@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>58310116319-vlilmph8qanl847te8c0udql16topk1m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.58310116319-vlilmph8qanl847te8c0udql16topk1m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCeRQ5IkH3vu0Et0rViDkkEGD4OmHo5-js</string>
+	<key>GCM_SENDER_ID</key>
+	<string>58310116319</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fiveplay-apps.Texticles</string>
+	<key>PROJECT_ID</key>
+	<string>texticles-905e7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>texticles-905e7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:58310116319:ios:cfe987130fa8e4f2017a6a</string>
+	<key>DATABASE_URL</key>
+	<string>https://texticles-905e7.firebaseio.com</string>
+</dict>
+</plist>

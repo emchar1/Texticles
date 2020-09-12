@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56EB6F522A472509EAF3466 /* Pods_Texticles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB834DEDBB497FC7CCC310C /* Pods_Texticles.framework */; };
+		EAE3B178250C9ED1000B16E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE3B177250C9ED1000B16E1 /* AppDelegate.swift */; };
+		EAE3B17A250C9ED1000B16E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE3B179250C9ED1000B16E1 /* SceneDelegate.swift */; };
+		EAE3B17C250C9ED1000B16E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE3B17B250C9ED1000B16E1 /* ViewController.swift */; };
+		EAE3B17F250C9ED1000B16E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE3B17D250C9ED1000B16E1 /* Main.storyboard */; };
+		EAE3B181250C9ED4000B16E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE3B180250C9ED4000B16E1 /* Assets.xcassets */; };
+		EAE3B184250C9ED4000B16E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE3B182250C9ED4000B16E1 /* LaunchScreen.storyboard */; };
+		EAE3B18C250C9FD4000B16E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAE3B18B250C9FD4000B16E1 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67C57DE15F98AB530B7A5B88 /* Pods-Texticles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texticles.debug.xcconfig"; path = "Target Support Files/Pods-Texticles/Pods-Texticles.debug.xcconfig"; sourceTree = "<group>"; };
+		9EB834DEDBB497FC7CCC310C /* Pods_Texticles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Texticles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE3B174250C9ED1000B16E1 /* Texticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Texticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE3B177250C9ED1000B16E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAE3B179250C9ED1000B16E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAE3B17B250C9ED1000B16E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAE3B17E250C9ED1000B16E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAE3B180250C9ED4000B16E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE3B183250C9ED4000B16E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAE3B185250C9ED4000B16E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE3B18B250C9FD4000B16E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE4B04937DBC05F3434AF377 /* Pods-Texticles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texticles.release.xcconfig"; path = "Target Support Files/Pods-Texticles/Pods-Texticles.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE3B171250C9ED1000B16E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56EB6F522A472509EAF3466 /* Pods_Texticles.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483D55F0BB1F99520A462797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67C57DE15F98AB530B7A5B88 /* Pods-Texticles.debug.xcconfig */,
+				EE4B04937DBC05F3434AF377 /* Pods-Texticles.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BAA35D8C8CDD4CD42EECBF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EB834DEDBB497FC7CCC310C /* Pods_Texticles.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAE3B16B250C9ED1000B16E1 = {
+			isa = PBXGroup;
+			children = (
+				EAE3B176250C9ED1000B16E1 /* Texticles */,
+				EAE3B175250C9ED1000B16E1 /* Products */,
+				483D55F0BB1F99520A462797 /* Pods */,
+				5BAA35D8C8CDD4CD42EECBF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE3B175250C9ED1000B16E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE3B174250C9ED1000B16E1 /* Texticles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE3B176250C9ED1000B16E1 /* Texticles */ = {
+			isa = PBXGroup;
+			children = (
+				EAE3B177250C9ED1000B16E1 /* AppDelegate.swift */,
+				EAE3B179250C9ED1000B16E1 /* SceneDelegate.swift */,
+				EAE3B17B250C9ED1000B16E1 /* ViewController.swift */,
+				EAE3B17D250C9ED1000B16E1 /* Main.storyboard */,
+				EAE3B180250C9ED4000B16E1 /* Assets.xcassets */,
+				EAE3B182250C9ED4000B16E1 /* LaunchScreen.storyboard */,
+				EAE3B185250C9ED4000B16E1 /* Info.plist */,
+				EAE3B18B250C9FD4000B16E1 /* GoogleService-Info.plist */,
+			);
+			path = Texticles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE3B173250C9ED1000B16E1 /* Texticles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE3B188250C9ED4000B16E1 /* Build configuration list for PBXNativeTarget "Texticles" */;
+			buildPhases = (
+				B5BF3B3C4402D5CA9E08CFE4 /* [CP] Check Pods Manifest.lock */,
+				EAE3B170250C9ED1000B16E1 /* Sources */,
+				EAE3B171250C9ED1000B16E1 /* Frameworks */,
+				EAE3B172250C9ED1000B16E1 /* Resources */,
+				F33CDFFA8D1853E101884043 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Texticles;
+			productName = Texticles;
+			productReference = EAE3B174250C9ED1000B16E1 /* Texticles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE3B16C250C9ED1000B16E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Eddie Char";
+				TargetAttributes = {
+					EAE3B173250C9ED1000B16E1 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = EAE3B16F250C9ED1000B16E1 /* Build configuration list for PBXProject "Texticles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE3B16B250C9ED1000B16E1;
+			productRefGroup = EAE3B175250C9ED1000B16E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE3B173250C9ED1000B16E1 /* Texticles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE3B172250C9ED1000B16E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE3B184250C9ED4000B16E1 /* LaunchScreen.storyboard in Resources */,
+				EAE3B18C250C9FD4000B16E1 /* GoogleService-Info.plist in Resources */,
+				EAE3B181250C9ED4000B16E1 /* Assets.xcassets in Resources */,
+				EAE3B17F250C9ED1000B16E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5BF3B3C4402D5CA9E08CFE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Texticles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33CDFFA8D1853E101884043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Texticles/Pods-Texticles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Texticles/Pods-Texticles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Texticles/Pods-Texticles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE3B170250C9ED1000B16E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE3B17C250C9ED1000B16E1 /* ViewController.swift in Sources */,
+				EAE3B178250C9ED1000B16E1 /* AppDelegate.swift in Sources */,
+				EAE3B17A250C9ED1000B16E1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAE3B17D250C9ED1000B16E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE3B17E250C9ED1000B16E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAE3B182250C9ED4000B16E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE3B183250C9ED4000B16E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAE3B186250C9ED4000B16E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAE3B187250C9ED4000B16E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE3B189250C9ED4000B16E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C57DE15F98AB530B7A5B88 /* Pods-Texticles.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ8V996BTJ;
+				INFOPLIST_FILE = Texticles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiveplay-apps.Texticles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAE3B18A250C9ED4000B16E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4B04937DBC05F3434AF377 /* Pods-Texticles.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ8V996BTJ;
+				INFOPLIST_FILE = Texticles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiveplay-apps.Texticles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE3B16F250C9ED1000B16E1 /* Build configuration list for PBXProject "Texticles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE3B186250C9ED4000B16E1 /* Debug */,
+				EAE3B187250C9ED4000B16E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE3B188250C9ED4000B16E1 /* Build configuration list for PBXNativeTarget "Texticles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE3B189250C9ED4000B16E1 /* Debug */,
+				EAE3B18A250C9ED4000B16E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE3B16C250C9ED1000B16E1 /* Project object */;
+}
