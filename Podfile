@@ -6,5 +6,6 @@ target 'Texticles' do
   use_frameworks!
 
   # Pods for Texticles
-  pod 'Firebase'
+  pod 'GoogleMLKit/Translate'
+
 end
